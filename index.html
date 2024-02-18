@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOOD</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="total">
+      <div class="recipe-section">
+        <div class="top">
+          <div class="logo">
+            <i id="logo-id" class="fa-solid fa-utensils"></i>
+            <h1>Cuisine Tip-off</h1>
+          </div>
+          <h2>Furnish us with an ingredient, and we'll offer the recipes</h2>
+          <div class="top-search">
+            <input
+              type="text"
+              id="search-bar"
+              class="search-text"
+              placeholder="Enter an ingredient here"
+            />
+            <button type="submit" class="searchbtn" id="search-btn">
+              <i class="fa-solid fa-magnifying-glass"></i></button
+            >S
+          </div>
+        </div>
+        <div class="main-card" id="thecard">
+          <div id="recipeModal">
+            <!--<h2 class="recipe-name">Name</h2>
+                   <div class="recipe-img">
+                       <img src="images/spag.jpg" >
+                   </div>
+                   <div class="ingredients">
+                       <h3>Ingredients</h3>
+                       <div>Chicken: 1.2kg</div>
+                   </div>
+                   <div class="recipe-steps">
+                       <h3>Steps</h3>
+                       <p></p><p></p>
+                   </div> -->
+          </div>
+        </div>
+        <div class="middle">
+          <h2 class="result">The results are:</h2>
+          <div id="food" class="meal-find">
+            <!--<div class="meal-item">
+                         <div class="recipe-image">
+                                <img src="images/spag.jpg" >
+                        </div>
+                        <div class="recipe">
+                                <p>Spaghetti</p>
+                                <a href="#" class="recipe-button">View Recipe</a>
+                        </div>
+                    </div>-->
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <h1>Some recommendations to try</h1>
+        <div class="card-container">
+          <div class="card">
+            <img src="images/tandoori.jpg" />
+            <h2>Chicken tandoori</h2>
+            <a
+              class="try-button"
+              href="https://www.allrecipes.com/recipe/50347/indian-tandoori-chicken/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Try This</a
+            >
+          </div>
+          <div class="card">
+            <img src="images/samo.jpg" />
+            <h2>Air Fryer Samosas</h2>
+            <a
+              class="try-button"
+              href="https://www.allrecipes.com/air-fryer-samosas-recipe-7510128"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Try This</a
+            >
+          </div>
+          <div class="card">
+            <img src="images/chococake.jpg" />
+            <h2>Chocolate Cake</h2>
+            <a
+              class="try-button"
+              href="https://www.vegrecipesofindia.com/basic-eggless-chocolate-cake-recipe/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Try This</a
+            >
+          </div>
+          <div class="card">
+            <img src="images/pizza.jpg" />
+            <h2>Pizza</h2>
+            <a
+              class="try-button"
+              href="https://www.vegrecipesofindia.com/veg-pizza-recipe-vegetable-pizza/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Try This</a
+            >
+          </div>
+          <div class="card">
+            <img src="images/tuscanchicken.jpg" />
+            <h2>Tuscan Chicken</h2>
+            <a
+              class="try-button"
+              href="https://www.thecookierookie.com/tuscan-chicken-in-parmesan-cream-sauce/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Try This</a
+            >
+          </div>
+          <div class="card">
+            <img src="images/alfredo.jpg" />
+            <h2>Alfredo Sauce</h2>
+            <a
+              class="try-button"
+              href="https://www.thecookierookie.com/homemade-alfredo-sauce/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Try This</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
